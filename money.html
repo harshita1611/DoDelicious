@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<h<>, initial-scale=1.0">
+  <title>Donate Money</title>
+</head>
+<style>
+  body{
+    background-image: url(./kids_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .quote{
+  font-family:  sans-serif;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #FFC090;
+  font-size: 3.6rem;
+  text-align: center;
+  }
+  .form {
+    background-color: #ffffff;
+    width: 50rem;
+    height: 44rem;
+    margin: 2.5rem auto 0 auto;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  }
+  .form h1{
+    font-family:  sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+  }
+  .text , .text_long{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    width: 20rem;
+    border: 1px solid #FFC090;
+  }
+  .text_long{
+    width: 43.5rem;
+  }
+  .payment{
+    margin: 0 0 0 2rem;
+    
+  }
+  .method{
+    margin:1rem 0 1rem 1rem;
+    color: #555;
+  }
+  .donate{
+    margin: 0 0 0 15rem;
+    padding: 0.5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: 1px solid #FFC090;
+    background-color: #FFC090;
+    color: #333;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  .payment label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-left: 0.5rem;
+  }
+</style>
+<body>
+  
+  <div class="form">
+    <form>
+      <h1 class="quote"> The slighest help from you, <br> will mean a lot to them</h1>
+      
+      <input type="text" class="text" placeholder="First name">
+      <input type="text" class="text" placeholder="Last name">
+      <br>
+      <input type="text" class="text" placeholder="Email">
+      <input type="text" class="text" placeholder="Phone number">
+      <br>
+      <input type="text" class="text_long" placeholder="Address">
+      <input type="text" class="text" placeholder="Zip Code">
+      <input type="text" class="text" placeholder="State">
+      <br>
+      <input type="text" class="text" placeholder="Amount">
+      <input type="text" class="text" placeholder="Message">
+      <br>
+      <div class="payment">
+        <label>Payment&#160 Method</label><br>
+        <input type="radio"  value="Credit Card" class="method"><label for="Credit Card">Credit Card</label><br>
+        <input type="radio"  value="Google Pay" class="method"><label>Offline Cash</label><br>
+        <input type="radio"  value="Paytm" class="method"><label>Paytm/Google Pay</label><br>
+        <br>
+      </div>
+      <input type="submit" value="Donate" class="donate">
+    </form>
+  </div>
+  
+</body>
+</html>

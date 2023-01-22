@@ -1,0 +1,64 @@
+body{
+  margin:0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background: #FFC090;
+} 
+html{
+  font-size: 62.5%;
+}
+
+.donate{
+  text-align: center;
+  font-size: 6rem;
+}     
+.each{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  font-size: 2.4rem;
+  margin-top: 9rem;
+  gap : 3rem;
+}
+.text{
+  text-decoration: none;
+    color: black;
+}
+
+.money{
+    width:36rem;
+    height: 40rem;
+    background:white ;
+    border-radius: 10px;
+    margin-left: 2rem;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.2);
+}
+.raw-material{
+    width:36rem;
+    height: 40rem;
+    background:white ;
+    border-radius: 10px;
+    margin-left: 2rem;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.2);
+}
+.food{
+  width:36rem;
+  height: 40rem;
+  background:white ;
+  border-radius: 10px;
+  margin-left: 2rem;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.money , .raw-material , .food{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url();
+}
+.money:hover,.raw-material:hover,.food:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}

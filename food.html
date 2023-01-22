@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<h<>, initial-scale=1.0">
+  <title>Donate Food</title>
+</head>
+<style>
+  body{
+    background-image: url(./coookkkkeeddd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .quote{
+  font-family:  sans-serif;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #FFC090;
+  font-size: 3.6rem;
+  text-align: center;
+  }
+  .form {
+    background-color: #ffffff;
+    width: 50rem;
+    height: 45rem;
+    margin: 2.5rem auto 0 auto;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  }
+  .form h1{
+    font-family:  sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+  }
+  .text , .text_long{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    width: 20rem;
+    border: 1px solid #FFC090;
+  }
+  .text_long{
+    width: 43.5rem;
+  }
+  .payment{
+    margin: 0 0 0 2rem;
+    
+  }
+  .method{
+    margin:1rem 0 1rem 2rem;
+    color: #555;
+  }
+  .donate{
+    margin: 0 0 0 15rem;
+    padding: 0.5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: 1px solid #FFC090;
+    background-color: #FFC090;
+    color: #333;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  .payment label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-left: 0.5rem;
+  }
+</style>
+<body>
+  
+  <div class="form">
+    <form>
+      <h1 class="quote">Empowering communities through your support.</h1>
+      
+      <input type="text" class="text" placeholder="First name">
+      <input type="text" class="text" placeholder="Last name">
+      <br>
+      <input type="text" class="text" placeholder="Email">
+      <input type="text" class="text" placeholder="Phone number">
+      <br>
+      <input type="text" class="text_long" placeholder="Address">
+      <input type="text" class="text" placeholder="Zip Code">
+      <input type="text" class="text" placeholder="State">
+      <br>
+      <div class="payment">
+        <label>Category of food </label><br>
+        <input type="radio"  value="Veg" class="method"><label for="Veg">Veg</label>
+        <input type="radio"  value="Non-Veg" class="method"><label>Non-Veg</label>
+        <input type="radio"  value="Both" class="method"><label>Both</label><br>
+      </div>
+      <input type="text" class="text" placeholder="List of food items">
+      <input type="text" class="text" placeholder="Message">
+      <br>
+      <div class="payment">
+        <label> Mode of Delivery </label><br>
+        <input type="radio"  value="Private vehicle" class="method"><label for="Private vehicle">Private vehicle</label><br>
+        <input type="radio"  value="Public transport" class="method"><label>Public transport</label><br>
+        <input type="radio"  value="Transportation needed" class="method"><label>Transportation needed</label><br>
+        <br>
+      </div>
+      <input type="submit" value="Donate" class="donate">
+    </form>
+  </div>
+  
+</body>
+</html>
