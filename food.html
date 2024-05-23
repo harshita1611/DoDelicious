@@ -110,4 +110,17 @@
   </div>
   
 </body>
+<script>
+  document.querySelector('.form form').addEventListener('submit', function(event) {
+    var inputs = this.querySelectorAll('input[type="text"]');
+    for (var i = 0; i < inputs.length; i++) {
+      if (inputs[i].value === '') {
+        event.preventDefault();
+        alert('Please fill all the fields');
+        return;
+      }
+    }
+    alert('Thank you for your donation!');
+  });
+</script>
 </html>
